@@ -3,8 +3,9 @@
 >> First babies are lighter than other babies, with a mean weight of 7.2 lbs vs 7.325 lbs, respectively. 
 Cohen's d for the difference in means is -0.08867, meaning the difference in means between the two groups is -0.08867 standard deviations.
 
-Python Code used:
+### Python Code Used:
 
+```{python}
 def CohenEffectSize(group1, group2):
     diff = group1.mean() - group2.mean()
     var1 = group1.var()
@@ -17,3 +18,4 @@ def CohenEffectSize(group1, group2):
 firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()
 
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+```

@@ -4,5 +4,5 @@
 
 ### Python Code Used:
 
-![](Images/4.2Image2.png)
-![](Images/4.2Image1.png)
+![](Images/4.1Image2.png)
+![](Images/4.1Image1.png)

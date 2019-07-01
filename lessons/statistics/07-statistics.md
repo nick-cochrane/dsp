@@ -90,9 +90,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >>What we're looking to solve in this problem is Pr(identical twins | twin brother). Rearranging the prior relationship, we can find that Pr(identical twins | twin brother) = (Pr(twin brother | identical twins)Pr(identical twins))/Pr(twin brother).
 
->>Pr(twin brother | identical twins) = 1/2. Identical twins must be the same sex, so either both boy or both girl.
-Pr(identical twins) = 1/300, from question
-Pr(twin brother) = Pr(identical twins & brother) + Pr(fraternal twins & brother):
+>>Pr(twin brother | identical twins) = 1/2. Identical twins must be the same sex, so either both boy or both girl.    Pr(identical twins) = 1/300, from question   
+Pr(twin brother) = Pr(identical twins & brother) + Pr(fraternal twins & brother):   
   Pr(identical twins & brother) = Pr(identical twins)Pr(twin brother | identical twins) = 1/300 * 1/2 = 1/600
   Pr(fraternal twins & brother) = Pr(fraternal twins)Pr(twin brother | fraternal twins) = 1/125 * 1/4 = 1/500
   

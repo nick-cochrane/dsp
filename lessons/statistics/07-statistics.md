@@ -103,7 +103,7 @@ Pr(twin brother) = Pr(identical twins & brother) + Pr(fraternal twins & brother)
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayes uses probabilities for both hyptotheses and data, while frequentist does not use probabilities for hypotheses. Bayes depends on prior probabilities and the likelihood of observed data, while frequentist probabilities depend on likelihood of observed and unobserved data. Overall, frequentist uses probability only to model processes such as sampling, while Bayes uses probability for sampling and other types of uncertainties.
 
 ---
 
